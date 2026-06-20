@@ -1,0 +1,135 @@
+Personal Finance Tracker
+
+📌 Project Overview
+
+Personal Finance Tracker is a Python-based desktop application that helps users manage their personal finances by tracking income and expenses, generating reports, and visualizing spending patterns through charts.
+
+This project was developed using Python, SQLite, Tkinter, and Matplotlib.
+
+⸻
+
+🚀 Features
+
+Transaction Management
+
+* Add Income Transactions
+* Add Expense Transactions
+* Store data permanently using SQLite Database
+
+Reports
+
+* Calculate Total Income
+* Calculate Total Expenses
+* Calculate Remaining Balance
+
+Analytics
+
+* Category-wise Expense Analysis
+* Expense Distribution Visualization
+
+Charts
+
+* Pie Chart for Expense Distribution
+* Bar Chart for Expense Categories
+
+GUI
+
+* User-friendly Tkinter Interface
+* Add Transactions through GUI
+* Automatic Database Integration
+
+⸻
+
+🛠 Technologies Used
+
+* Python 3
+* SQLite3
+* Tkinter
+* Matplotlib
+* Pandas
+
+⸻
+
+📂 Project Structure
+
+PersonalFinanceTracker
+│
+├── main.py
+├── gui.py
+├── Database.py
+├── Report.py
+├── analytics.py
+├── chart.py
+├── bar_chart.py
+├── view.py
+├── finance.db
+└── README.md
+
+⸻
+
+⚙️ Installation
+
+Clone Repository
+
+git clone https://github.com/yourusername/PersonalFinanceTracker.git
+
+Open Project Folder
+
+cd PersonalFinanceTracker
+
+Install Required Libraries
+
+pip install matplotlib pandas
+
+Run Application
+
+python3 gui.py
+
+⸻
+
+📊 Sample Output
+
+Financial Report
+
+Total Income: ₹25000
+Total Expense: ₹6900
+Balance: ₹18100
+
+Expense Categories
+
+Games: ₹5000
+Food: ₹1000
+Travel: ₹500
+Snacks: ₹400
+
+⸻
+
+🎯 Learning Outcomes
+
+* Database Management using SQLite
+* GUI Development using Tkinter
+* Data Visualization using Matplotlib
+* Python Programming
+* CRUD Operations
+* Financial Data Analysis
+
+⸻
+
+🔮 Future Improvements
+
+* Edit Transactions
+* Delete Transactions
+* PDF Report Generation
+* CSV Export
+* Budget Alerts
+* User Authentication System
+
+⸻
+
+👨‍💻 Author
+
+Vaibhav Singh
+
+B.Tech Computer Engineering Student
+
+Developed as a personal portfolio project to strengthen Python, Database, and GUI development skills.
